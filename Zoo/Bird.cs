@@ -15,12 +15,12 @@ namespace Zoo
         public string Ration { get; set; }
         public string Sound { get; set; }
 
-        public Bird(string name, string ration, double weight, string sound)
+        public Bird(string name/*, string ration, double weight, string sound*/)
         {
             Name = name;
-            Ration = ration;
-            Weight = weight;
-            Sound = sound;
+            //Ration = ration;
+            //Weight = weight;
+            //Sound = sound;
 
         }
 

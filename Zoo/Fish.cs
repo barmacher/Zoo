@@ -15,12 +15,12 @@ namespace Zoo
 
         public string Ration { get; set; }
 
-        public Fish(string name, string ration, double weight, string color)
+        public Fish(string name/*, string ration, double weight, string color*/)
         {
             Name = name;
-            Ration = ration;
-            Weight = weight;
-            Color = color;
+            //Ration = ration;
+            //Weight = weight;
+            //Color = color;
         }
 
         public void Info()

@@ -14,11 +14,11 @@ namespace Zoo
 
         public string Ration { get; set; }
 
-        public Insects(string name, string ration, double weight)
+        public Insects(string name/*, string ration, double weight*/)
         {
-            Name = name;
-            Ration = ration;
-            Weight = weight;
+            //Name = name;
+            //Ration = ration;
+            //Weight = weight;
         }
 
         public void Info()
